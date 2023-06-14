@@ -332,7 +332,7 @@ battery_registers = {
     "battery_diagnostics_lasterror_4_time": RegisterInfo(316, INT32, "timestamp"),
     "battery_system_mincelltemperature": RegisterInfo(318, INT16, UnitOfTemperature.CELSIUS, 10),
     "battery_system_maxcelltemperature": RegisterInfo(319, INT16, UnitOfTemperature.CELSIUS, 10),
-    "battery_alarm_higchargecurrent": RegisterInfo(register=320, dataType=UINT16, entityType=TextReadEntityType(generic_alarm_ledger)),
+    "battery_alarm_highchargecurrent": RegisterInfo(register=320, dataType=UINT16, entityType=TextReadEntityType(generic_alarm_ledger)),
     "battery_alarm_highdischargecurrent": RegisterInfo(register=321, dataType=UINT16, entityType=TextReadEntityType(generic_alarm_ledger)),
     "battery_alarm_cellimbalance": RegisterInfo(register=322, dataType=UINT16, entityType=TextReadEntityType(generic_alarm_ledger)),
     "battery_alarm_internalfailure": RegisterInfo(register=323, dataType=UINT16, entityType=TextReadEntityType(generic_alarm_ledger)),
